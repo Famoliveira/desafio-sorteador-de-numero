@@ -12,7 +12,6 @@
   --content-brand: #C58DE7;
   --color-inverse: #030203;
 
-
   /* background */
   --bg-primary: #020202;
   --bg-secondary: #111012;
@@ -58,4 +57,9 @@
   /* ==== Texto em maiúsculas quando necessário ==== */
   --text-transform-uppercase: uppercase;
   --text-transform-none: none;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--content-primary);
 }
